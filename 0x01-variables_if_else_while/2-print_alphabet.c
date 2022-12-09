@@ -23,6 +23,5 @@ int main(void)
 		putchar(a);
 		b++;
 	}
-	putchar('\n');
 	return (0);
 }
