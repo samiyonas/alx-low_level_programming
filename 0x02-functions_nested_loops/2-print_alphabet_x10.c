@@ -3,21 +3,22 @@
 /**
  * print_alphabet_x10 - Entry point
  *
- * Return: Always 0
+ * Return: 0 Always
  */
 void print_alphabet_x10(void)
 {
+	char b;
 	int i = 0;
-	char b = 'a';
 
-	while (b <= 'z')
+	while (i < 10)
 	{
-		while (i <= 10)
+		b = 'a';
+		while (b <= 'z')
 		{
-			_putchar('\n');
-			i++;
+			_putchar(b);
+			b++;
 		}
-		_putchar(b);
-		b++;
+		_putchar('\n');
+		i++;
 	}
 }
