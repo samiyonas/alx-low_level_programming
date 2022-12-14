@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Entry point
+ * print_alphabet_x10 - prints the alphabet 10x
  *
- * Return: 0 Always
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
@@ -13,6 +13,7 @@ void print_alphabet_x10(void)
 	while (i < 10)
 	{
 		b = 'a';
+
 		while (b <= 'z')
 		{
 			_putchar(b);
