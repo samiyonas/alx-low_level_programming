@@ -5,3 +5,4 @@
 4-skip e and q
 5-print numbers from 0 - 10
 6-print numbers using putchar
+7-reverse the alphabet
