@@ -7,3 +7,4 @@
 6-print numbers using putchar
 7-reverse the alphabet
 8-digits of hexadecimal in lowercase
+9-all the possible combination of single digit number
