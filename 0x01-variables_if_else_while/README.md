@@ -6,3 +6,4 @@
 5-print numbers from 0 - 10
 6-print numbers using putchar
 7-reverse the alphabet
+8-digits of hexadecimal in lowercase
