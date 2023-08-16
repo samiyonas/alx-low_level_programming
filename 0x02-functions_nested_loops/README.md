@@ -4,3 +4,4 @@
 3-check for the lowercase character
 4-checks for alphabet
 5-prints the sign of the number
+6-absolute value of a number
