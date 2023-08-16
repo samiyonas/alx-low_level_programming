@@ -2,3 +2,4 @@
 1-alphabet in lowercase
 2-print the alphabet 10 times
 3-check for the lowercase character
+4-checks for alphabet
