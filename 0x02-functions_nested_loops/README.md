@@ -6,3 +6,4 @@
 5-prints the sign of the number
 6-absolute value of a number
 7-print last digit of a number
+8-prints 24 hours
