@@ -8,3 +8,4 @@
 7-print last digit of a number
 8-prints 24 hours
 10-add two integers
+11-print until 98 is reached
