@@ -7,3 +7,4 @@
 6-absolute value of a number
 7-print last digit of a number
 8-prints 24 hours
+10-add two integers
