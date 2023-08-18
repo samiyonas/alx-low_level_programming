@@ -2,3 +2,4 @@
 1-checks for digit
 2-multiply two integers
 3-prints 0-9
+4-print numbers except 2 and 4
