@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - print number until 98 is reached
@@ -9,7 +10,7 @@ void print_to_98(int n)
 {
 	while (n <= 98)
 	{
-		putchar(n + '0');
+		printf("%d", n);
 		if (n < 98)
 		{
 			putchar(',');
