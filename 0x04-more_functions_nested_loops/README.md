@@ -7,3 +7,4 @@
 6-print _ n times
 7-print diagonal line
 8-print square size times
+9-FizzBuzz test
