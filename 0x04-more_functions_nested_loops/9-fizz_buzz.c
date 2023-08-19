@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz - prints numbers from 1 to 100 with some modifications
+ * main - prints numbers from 1 to 100 with some modifications
  *
- * Return: nothing
+ * Return: int
  */
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -33,4 +33,6 @@ void fizz_buzz(void)
 			printf(" ");
 		}
 	}
+	printf("\n");
+	return (0);
 }
