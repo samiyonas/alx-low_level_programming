@@ -8,3 +8,4 @@
 7-print diagonal line
 8-print square size times
 9-FizzBuzz test
+10-print size sized triangle
