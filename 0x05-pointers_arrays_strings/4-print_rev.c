@@ -2,19 +2,19 @@
 
 /**
  * print_rev - reverse a string
- * @str: pointer variable
+ * @s: pointer variable
  * Return: nothing
  */
-void print_rev(char *str)
+void print_rev(char *s)
 {
 	int i;
 
-	for (i = 0; *(str + i) != '\0'; i++)
+	for (i = 0; *(s + i) != '\0'; i++)
 	{
 		;
 	}
 	for (i = i; i >= 0; i--)
 	{
-		_putchar(*(str + i));
+		_putchar(*(s + i));
 	}
 }
