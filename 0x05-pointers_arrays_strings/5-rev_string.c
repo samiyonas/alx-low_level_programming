@@ -10,14 +10,13 @@ void rev_string(char *s)
 	int i;
 	int j;
 	int result;
+	int a;
 
 	result = 0;
 	for (i = 0; *(s + i) != '\0'; i++)
 	{
 		result++;
 	}
-	int a;
-
 	a = result - 1;
 	for (j = 0; j < result / 2; j++)
 	{
