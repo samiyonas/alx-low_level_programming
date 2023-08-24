@@ -16,10 +16,13 @@ void rev_string(char *s)
 	{
 		result++;
 	}
-	int a = result - 1;
+	int a;
 
+	a = result - 1;
 	for (j = 0; j < result / 2; j++)
 	{
+		char temp;
+
 		temp = *(s + j);
 		*(s + j) = *(s + a - j);
 		*(s + a - j) = temp;
