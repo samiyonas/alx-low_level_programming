@@ -4,3 +4,4 @@
 3-prints a string
 4-reverse a string
 5-reverse a string again
+6-print elements who happen to have index of multiple of 2
