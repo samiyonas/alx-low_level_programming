@@ -5,3 +5,4 @@
 4-reverse array of integer
 5-lowercase to uppercase
 6-capitalize everything
+7-encoding string
