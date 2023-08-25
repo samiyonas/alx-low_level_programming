@@ -2,3 +2,4 @@
 1-concatenate two string until index n is reached
 2-a function that copies a string
 3-function that compares two strings
+4-reverse array of integer
