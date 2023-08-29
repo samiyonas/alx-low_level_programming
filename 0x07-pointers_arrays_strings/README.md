@@ -4,3 +4,4 @@
 3-a function that gets the length of substring
 5-locate substring in a string
 7-chessboard
+8-sum of diagonal
