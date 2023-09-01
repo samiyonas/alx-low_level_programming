@@ -4,3 +4,4 @@
 3-factorial of a positive integer
 4-power of a number
 5-square root of a number
+6-check for a prime number
