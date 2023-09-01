@@ -19,11 +19,11 @@ int checker(int n, int base)
 	return (checker(n + 1, base));
 }
 /**
- * sqrt_recursion - returns square root of a number
+ * _sqrt_recursion - returns square root of a number
  * @n: number to check for square root
  * Return: int
  */
-int sqrt_recursion(int n)
+int _sqrt_recursion(int n)
 {
 	return (checker(1, n));
 }
