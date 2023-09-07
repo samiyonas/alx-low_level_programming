@@ -2,3 +2,4 @@
 1-string duplication
 2-string concatenation
 3-2 dimensional array of int
+4-freed the function
