@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -7,7 +6,7 @@
  * @argv: argument vector
  * Return: int
  */
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%s", argv[0]);
 	return (0);
