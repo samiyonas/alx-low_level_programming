@@ -2,3 +2,4 @@
 1-print number of argument
 2-print all the arguments
 3-multiply two numbers
+4-add two positive numbers
