@@ -2,3 +2,4 @@
 1-initialize a structure
 2-print members of a struct
 typedef
+4-create new structure
