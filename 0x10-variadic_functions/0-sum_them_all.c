@@ -8,10 +8,10 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
+	va_list lst_arg;
+
 	unsigned int i;
 	unsigned int add;
-
-	va_list lst_arg;
 
 	va_start(lst_arg, n);
 
