@@ -11,10 +11,6 @@ int sum_them_all(const unsigned int n, ...)
 	unsigned int i;
 	int add;
 
-	if (n == 0)
-	{
-		return (0);
-	}
 	va_list lst_arg;
 
 	va_start(lst_arg, n);
