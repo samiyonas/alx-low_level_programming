@@ -5,7 +5,7 @@
  * @n: integer variable
  * Return: int
  */
-int factorial(int n);
+int factorial(int n)
 {
 	if (n < 0)
 	{
