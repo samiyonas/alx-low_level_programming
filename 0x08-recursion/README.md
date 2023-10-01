@@ -2,3 +2,4 @@
 1-reverse a string
 2-length of string
 3-factorial of a number
+4-power of a number
