@@ -16,10 +16,11 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	for (i = 0; *(str) != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		;
 	}
+
 	i++;
 
 	ptr = malloc(sizeof(char) * i);
@@ -29,11 +30,11 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	for (i = 0; *(str + i) != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		*(ptr + i) = *(str + i);
+		ptr[i] = str[i];
 	}
-	*(ptr + i) = '\0';
+	ptr[i] = '\0';
 
 	return (ptr);
 }
