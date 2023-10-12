@@ -12,7 +12,9 @@ int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 	int num;
+	int counter;
 
+	counter = 0;
 	if (array != NULL && cmp != NULL)
 	{
 		for (i = 0; i < size; i++)
@@ -20,11 +22,12 @@ int int_index(int *array, int size, int (*cmp)(int))
 			num = cmp(array[i]);
 			if (num != 0)
 			{
+				counter++;
 				return (i);
 			}
 		}
 	}
-	if (size <= 0 || i == size)
+	if (size <= 0 || counter == 0)
 	{
 		return (-1);
 	}
