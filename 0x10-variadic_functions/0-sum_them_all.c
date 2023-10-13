@@ -9,19 +9,11 @@
 int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int i;
-	int sum;
-
-	sum = 0;
+	int sum = 0;
 
 	va_list lst_arg;
 
-	if (n == 0)
-	{
-		return (0);
-	}
-
 	va_start(lst_arg, n);
-
 	for (i = 0; i < n; i++)
 	{
 		sum += va_arg(lst_arg, int);
