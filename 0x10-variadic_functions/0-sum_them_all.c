@@ -26,7 +26,6 @@ int sum_them_all(const unsigned int n, ...)
 	{
 		sum += va_arg(lst_arg, int);
 	}
-	
 	va_end(lst_arg);
 	return (sum);
 }
