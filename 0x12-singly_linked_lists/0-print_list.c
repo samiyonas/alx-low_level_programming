@@ -12,7 +12,6 @@ size_t print_list(const list_t *h)
 	unsigned int node_counter = 0;
 
 	current = h;
-
 	while (current)
 	{
 		if (current->str == NULL)
