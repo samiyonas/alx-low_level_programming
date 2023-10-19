@@ -2,28 +2,27 @@
 #include <stdio.h>
 
 /**
- * print_list - function that prints of the elements of struct
- * @h: a pointer to struct data type
- * Return: number of nodes
+ * print_list - print elements on a singly linked list
+ *
+ * @h: pointer to list
+ *
+ * Return: int
  */
+
 size_t print_list(const list_t *h)
 {
-	const list_t *current;
-	unsigned int node_counter = 0;
+	const list_t *hold;
+	unsigned int i = 0;
 
-	current = h;
-	while (current)
+	hold = h;
+	while (hold)
 	{
-		if (current->str == NULL)
-		{
+		if (hold->str == NULL)
 			printf("[%u] %s\n", 0, "(nil)");
-		}
 		else
-		{
-			printf("[%u} %s\n", current->len, current->str);
-		}
-		node_counter++;
-		current = current->next;
+			printf("[%u] %s\n", hold->len, hold->str);
+		i++;
+		hold = hold->next;
 	}
-	return (node_counter);
+	return (i);
 }
