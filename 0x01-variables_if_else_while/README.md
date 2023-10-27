@@ -1,10 +1,1 @@
-0-negative positive or zero
-1-what is the last digit of the integer
-2-print the alphabet in lowercase
-3-print the alphabet in both lowercase and uppercase
-4-skip e and q
-5-print numbers from 0 - 10
-6-print numbers using putchar
-7-reverse the alphabet
-8-digits of hexadecimal in lowercase
-9-all the possible combination of single digit number
+# ALX-0x01-variables_if_else_while
