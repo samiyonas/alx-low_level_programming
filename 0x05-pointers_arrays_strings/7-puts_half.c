@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -12,7 +13,7 @@ void puts_half(char *str)
 
 	if (str == NULL)
 	{
-		return (NULL);
+		return;
 	}
 
 	for (i = 0; *(str + i) != '\0'; i++)
