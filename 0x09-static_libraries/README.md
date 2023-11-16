@@ -1,2 +1,1 @@
-static libraries
-a script that creates a static library
+# ALX-0x09-static_libraries
