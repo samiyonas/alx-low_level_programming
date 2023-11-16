@@ -25,7 +25,7 @@ int prime_helper(int i, int j)
  * @n: integer variable
  * Return : int
  */
-int is_prime_number(int n);
+int is_prime_number(int n)
 {
 	if (prime_helper(1, n) == 2)
 	{
