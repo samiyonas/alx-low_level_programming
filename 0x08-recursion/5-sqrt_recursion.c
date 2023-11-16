@@ -16,7 +16,7 @@ int sqrt_helper(int i, int j)
 	{
 		return (-1);
 	}
-	sqrt_helper(i + 1, j);
+	return (sqrt_helper(i + 1, j));
 }
 
 /**
@@ -30,5 +30,5 @@ int _sqrt_recursion(int n)
 
 	a = 1;
 
-	sqrt_helper(a, n);
+	return (sqrt_helper(a, n));
 }
