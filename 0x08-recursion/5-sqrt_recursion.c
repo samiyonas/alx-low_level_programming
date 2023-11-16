@@ -18,6 +18,7 @@ int sqrt_helper(int i, int j)
 	}
 	sqrt_helper(i + 1, j);
 }
+
 /**
  * _sqrt_recursion - square root of a number
  * @n: integer variable
