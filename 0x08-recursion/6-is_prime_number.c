@@ -23,16 +23,16 @@ int prime_helper(int i, int j)
 /**
  * is_prime_number - checks for prime number
  * @n: integer variable
- * Return : int
+ * Return: int
  */
 int is_prime_number(int n)
 {
 	if (prime_helper(1, n) == 2)
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
-		return (1);
+		return (0);
 	}
 }
