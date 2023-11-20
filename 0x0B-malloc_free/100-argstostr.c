@@ -11,6 +11,7 @@ char *argstostr(int ac, char **av)
 {
 	int i, j, counter = 0;
 	char *ptr;
+
 	if (ac == 0 || av == NULL)
 	{
 		return (NULL);
@@ -30,14 +31,19 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	}
 
+	counter = 0;
+
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
 		{
-			ptr[j] = av[i][j];
+			ptr[counter] = av[i][j];
+			counter++;
 		}
 		ptr[j] = '\n';
+		counter++;
 	}
-	ptr[j] = '\0';
+	ptr[counter] = '\0';
+
 	return (ptr);
 }
