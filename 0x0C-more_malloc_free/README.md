@@ -1,2 +1,1 @@
-0-allocate memory space
-1-concatenating n byte of character
+# ALX-0x0C-more_malloc_free
