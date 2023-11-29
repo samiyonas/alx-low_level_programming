@@ -31,6 +31,6 @@ int main(int argc, char *argv[])
 	}
 
 	func_return = f(a, b);
-
-	return (func_return);
+	printf("%d\n", func_return);
+	return (0);
 }
