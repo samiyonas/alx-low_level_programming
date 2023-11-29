@@ -1,3 +1,1 @@
-0-create array
-1-string duplication
-2-string cocatenation
+# ALX-0x0B-malloc_free
