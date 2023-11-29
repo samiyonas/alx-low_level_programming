@@ -1,13 +1,14 @@
-#include "calc.h"
+#include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
  * get_op_func - returns function pointers
  * @s: string(operator)
  * Return: function pointer
  */
-int (get_op_func(char *s))(int, int)
+int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
 		{"+", op_add},
