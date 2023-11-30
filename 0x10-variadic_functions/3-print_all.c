@@ -24,13 +24,13 @@ void print_all(const char * const format, ...)
 			switch (format[i])
 			{
 				case 'c':
-					printf("%s%c", separator, va_arg(fptr, int);
+					printf("%s%c", separator, va_arg(fptr, int));
 					break;
 				case 'i':
-					printf("%s%d", separator, va_arg(fptr, int);
+					printf("%s%d", separator, va_arg(fptr, int));
 					break;
 				case 'f':
-					printf("%s%f", separator, va_arg(fptr, double);
+					printf("%s%f", separator, va_arg(fptr, double));
 					break;
 				case 's':
 					str = va_arg(fptr, char *);
