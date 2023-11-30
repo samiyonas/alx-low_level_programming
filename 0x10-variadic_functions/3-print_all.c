@@ -10,7 +10,7 @@
  */
 void print_all(const char * const format, ...)
 {
-	int i;
+	unsigned int i;
 	char *str, separator = "";
 
 	va_list fptr;
