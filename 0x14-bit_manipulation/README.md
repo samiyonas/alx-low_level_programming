@@ -1,1 +1,1 @@
-# ALX-0x14_bit_manipulation
+# ALX-0x14-bit_manipulation
