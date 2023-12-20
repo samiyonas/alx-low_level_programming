@@ -9,14 +9,13 @@
 int create_file(const char *filename, char *text_content)
 {
 	int fd;
-	unsigned int i;
+	unsigned int i = 0;
 	ssize_t fd_w;
 
 	if (filename == NULL)
 	{
 		return (-1);
 	}
-
 	fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
 
 	if (fd == -1)
@@ -25,9 +24,9 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	}
 
-	for (i = 0; *(text_content + i) != '\0'; i++)
+	while (text_content[i] != '\0')
 	{
-		;
+		i++;
 	}
 
 	fd_w = write(fd, text_content, i);
@@ -38,5 +37,6 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	}
 
+	close(fd);
 	return (1);
 }
