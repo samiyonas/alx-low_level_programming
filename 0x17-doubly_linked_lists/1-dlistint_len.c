@@ -7,7 +7,7 @@
  * @h: linked list
  * Return: size_t
  */
-size_t dlistint_len(const dlistint *h)
+size_t dlistint_len(const dlistint_t *h)
 {
 	size_t count = 0;
 
