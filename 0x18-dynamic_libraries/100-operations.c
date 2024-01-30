@@ -2,7 +2,8 @@
 
 /**
  * add - adds two numbers
- *
+ * @a: int
+ * @b: int
  * Return: int
  */
 int add(int a, int b)
@@ -11,7 +12,8 @@ int add(int a, int b)
 }
 /**
  * sub - subtracts two numbers
- *
+ * @a: int
+ * @b: int
  * Return: int
  */
 int sub(int a, int b)
@@ -20,7 +22,8 @@ int sub(int a, int b)
 }
 /**
  * mul - multiply two numbers
- *
+ * @a: int
+ * @b: int
  * Return: int
  */
 int mul(int a, int b)
@@ -29,7 +32,8 @@ int mul(int a, int b)
 }
 /**
  * div - divide two numbers
- *
+ * @a: int
+ * @b: int
  * Return: int
  */
 int div(int a, int b)
@@ -42,11 +46,12 @@ int div(int a, int b)
 	return (a / b);
 }
 /**
- * rem - remainder of two numbers
- *
+ * mod - remainder of two numbers
+ * @a: int
+ * @b: int
  * Return: int
  */
-int rem(int a, int b)
+int mod(int a, int b)
 {
 	if (b == 0)
 	{
