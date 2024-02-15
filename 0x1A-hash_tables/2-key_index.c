@@ -13,10 +13,8 @@
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
 	unsigned long int hash_code, index;
-	char *str;
-
-	str = strdup(key);
-	hash_code = hash_djb2(str);
+	
+	hash_code = hash_djb2(key);
 
 	index = hash_code % size;
 	if (index > size - 1)
