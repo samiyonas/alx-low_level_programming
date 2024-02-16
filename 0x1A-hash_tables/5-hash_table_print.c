@@ -35,7 +35,7 @@ void hash_table_print(const hash_table_t *ht)
 					if (count == 0)
 						printf("'%s': '%s'", curr->key, curr->value);
 					else
-						printf(", '%s': '%s'", ht->array[i]->key, ht->array[i]->value);
+						printf(", '%s': '%s'", curr->key, curr->value);
 					count++;
 					curr = curr->next;
 				}
