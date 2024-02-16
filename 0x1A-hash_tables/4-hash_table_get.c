@@ -17,9 +17,18 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	hash_node_t *curr;
 	const unsigned char *k = (const unsigned char *)key;
 
-	index = key_index(k, ht->size);
+	if (ht == NULL || key == NULL)
+	{
+		return (NULL);
+	}
 
-	if (ht->array[index]->next == NULL)
+	index = key_index(k, ht->size);
+	if (ht->array[index] == NULL)
+	{
+		return (NULL);
+	}
+
+	if (ht->array[index]->next == NULL && strcmp(ht->array[index]->key, key) == 0)
 	{
 		return (ht->array[index]->value);
 	}
