@@ -14,6 +14,8 @@ void hash_table_print(const hash_table_t *ht)
 	hash_node_t *curr;
 	unsigned long int i, count = 0;
 
+	if (ht == NULL || ht->size == 0)
+		return;
 	printf("{");
 	if (ht != NULL && ht->size != 0)
 	{
@@ -39,7 +41,6 @@ void hash_table_print(const hash_table_t *ht)
 					count++;
 					curr = curr->next;
 				}
-				free(curr);
 			}
 		}
 	}
