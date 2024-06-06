@@ -30,7 +30,7 @@ typedef struct listint_s
  */
 typedef struct skiplist_s
 {
-   	int n;
+    int n;
 	size_t index;
 	struct skiplist_s *next;
 	struct skiplist_s *express;
